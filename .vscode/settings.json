@@ -1,0 +1,15 @@
+{
+    "editor.fontLigatures": null,
+    "[css]": {
+
+        "editor.suggest.insertMode": "replace"
+    },
+    "[django-html]": {
+    
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    }
+}

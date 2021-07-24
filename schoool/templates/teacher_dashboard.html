@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <title>Teacher Dashboard</title>
+</head>
+<body>
+    {% block content %}
+        {% if user.is_authenticated %} 
+            <p>Hello {{user.username}}</p>
+            <p>{{More.Bio}}</p>
+            <p></p>
+        {% endif %}
+    {% endblock content %}
+    
+</body>
